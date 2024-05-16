@@ -74,7 +74,7 @@ calc2:
 	li a0, -1
 	
 	add t2, t0, t1		# t2 = a + b
-	mul t2, t2, t2,		#
+	mul t2, t2, t2,		# t2 = 8a+b)^2
 	add t2, a0, t2		# t2 = res + (a+b)^2 i
 	
 	sub t3, t0, t1		# t3 = a-b
